@@ -1,7 +1,10 @@
 package com.AliCetin;
 
+import com.AliCetin.files.FilePathData;
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+     FilePathData a= new FilePathData();
+     a.logFileWriter("aaa","000");
     }
 }
