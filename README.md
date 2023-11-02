@@ -9,64 +9,8 @@
 
 ## Java Core 
 *Java* with **sql**
->
-> 
-> 
->
----
 
-```sh
-Projemiz Araba otomasyonudur.
-Sistemde ilgili email yoksa yeniden kayıt oluştur.
 
-specialHomePage: 
-Roller:
-Create
-Delete
-Update
-FındByID
-FındByEmail
-MemberActivePassive
-Roller Change 
-Loglama 
-
--------
-Admin: 
-specialHomePage(+)
-Roller(+)
-Create(+)
-Delete(+)
-Update(+)
-FındByID(+)
-FındByEmail(+)
-MemberActivePassive(+)
-Admin,Writer,User kendi bilgileri CRUD (+)
-Loglama (+)
--------
-Writer:
-specialHomePage(+)
-Roller(-)
-Create(-)
-Delete(-)
-Update(-)
-FındByID(+)
-FındByEmail(+)
-MemberActivePassive(-)
-Writer kendi bilgileri CRUD (+)
-Loglama (+)
------- 
-User: 
-specialHomePage(+)
-Roller(-)
-Create(-)
-Delete(-)
-Update(-)
-FındByID(-)
-FındByEmail(-)
-MemberActivePassive(-)
-User kendi bilgileri CRUD (+)
-Loglama (+)
-```
 
 ---
 
